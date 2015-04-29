@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfMergeSort.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="MainWindow" Height="589.045" Width="898.403">
+    <Grid>
+        <DataGrid Name="grdEmployee" HorizontalAlignment="Left" Margin="265,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbThreadsCount" HorizontalAlignment="Left" Height="23" Margin="10,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="tbColumnIndex" HorizontalAlignment="Left" Height="23" Margin="10,96,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Кількість потоків" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top"/>
+        <Label Content="# стовпця" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+        <Button Content="Сортувати" HorizontalAlignment="Left" Margin="31,139,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox Name ="Logs"  HorizontalAlignment="Left" Height="370" Margin="10,178,0,0" TextWrapping="Wrap" Text="Logs:" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
